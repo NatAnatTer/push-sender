@@ -23,7 +23,7 @@ fun main() {
           "postId": 2,
           "postAuthor": "Netology"
         }""".trimIndent())
-        .setToken(token)
+        .setToken("dyWrZ7A-RdWnFnx4-QhQTY:APA91bGmr7B27B-hef2vXEfEDb4WH1tpl2vPi_KP2l357sBXV-S0-krI6nNROdDaJpD-GdLxKy47qZWNU1qqoKilKQhMr7FihLhja3r5Fc37rxf7TOYWA-I14uSKKbMeRyzEL-hkbW3l")
         .build()
 
     FirebaseMessaging.getInstance().send(message)
